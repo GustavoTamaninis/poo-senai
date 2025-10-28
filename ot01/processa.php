@@ -35,9 +35,8 @@
         $valor2 = $_POST['valor2'] ?? "";
         $operacao = $_POST['operacao'] ?? "";
         
-        echo $val1 = parse_num($valor1);
-        echo "<br>";
-        echo $val2 = parse_num($valor2);
+        $val1 = parse_num($valor1);
+        $val2 = parse_num($valor2);
 
         $result = null;
         $error = null;
