@@ -1,8 +1,11 @@
+@charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 :root{
     --bg: #f6f7fb;
     --card: #fff;
-    --accent: #2b6cb0;
+    --accent: #e93f21;
     --muted: #666;
     --text: #222;
 }
@@ -63,6 +66,7 @@ button{
     background-color: var(--accent);
     color: var(--card);
     cursor: pointer;
+    font-size: 14px;
 }
 
 button[type=reset]{
