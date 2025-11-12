@@ -69,7 +69,7 @@
         $error = null;
 
         $val1 = Calculadora::parse_num($valor1);
-        $val2= Calculadora::parse_num($valor2);
+        $val2 = Calculadora::parse_num($valor2);
 
         //validando:
         if($val1 == null || $val2 == null){
