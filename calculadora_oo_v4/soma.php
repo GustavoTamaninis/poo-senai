@@ -1,7 +1,7 @@
 <?php 
     final class Soma{
         //Atributos do objeto:
-        private float $num1;
+        private float $num1; //atributo do objeto da classe
         private float $num2;
 
         //Método que permite retornar o valor de $num1 para quem o solicitar.
