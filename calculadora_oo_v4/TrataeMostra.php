@@ -35,7 +35,7 @@
             $s = trim($val);
             $s = str_replace(',', '.', $s);
 
-            if(!preg_match("/^s*[+-]?\d+(?:[\.,]\d+)?\s*$/", $s)){
+            if(!preg_match("/^\s*[+-]?\d+(?:[\.,]\d+)?\s*$/", $s)){
                 return null;
             }
 
