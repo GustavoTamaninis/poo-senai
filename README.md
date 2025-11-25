@@ -1,5 +1,4 @@
-# ✨ Exercícios de Orientação a Objetos em PHP
+# ✨ Calculadoras Orientadas a Objetos em PHP
 
-:arrow_right_hook: Este repositório trata-se da reunião de exercícios de Orientação a Objetos em PHP desenvolvidos nas minhas aulas no SENAI.
-Nele utilizei as tecnologias PHP, HTML5, CSS3 e JavaScript puros.
-<hr>
+📌 Este repositório trata-se de diversas versões de uma Calculadora, onde em cada versão foi implementado um conceito de Orientação a Objetos em PHP. Estas calculadoras foram desenvolvidas nas minhas aulas no UNISENAI, a partir de orientações técnicas fornecidas por meu professor, a fim de aprender este novo paradigma de programação. Nele utilizei as tecnologias PHP, HTML5, CSS3 e JavaScript puros.
+
