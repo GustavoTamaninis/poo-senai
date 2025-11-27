@@ -18,42 +18,35 @@
         $result = null;
         $error = null;
 
+        $oper = null;
+
         //validando:
         if($val1 == null || $val2 == null){
             $error = "Entrada inválida. Certifique-se de informar números válidos.";
         }else{
             switch($operacao){
                 case 'somar':
-                    $soma = new Soma();
-                    $soma->setNum1($val1);
-                    $soma->setNum2($val2);
-                    $result = $soma->calcula();
+                    $oper = new Soma();
                     break;
                 case 'subtrair':
-                    $subtracao = new Subtracao();
-                    $subtracao->setNum1($val1);
-                    $subtracao->setNum2($val2);
-                    $result = $subtracao->calcula();
+                    $oper = new Subtracao();
                     break;
                 case 'multiplicar':
-                    $multiplicacao = new Multiplicacao();
-                    $multiplicacao->setNum1($val1);
-                    $multiplicacao->setNum2($val2);
-                    $result = $multiplicacao->calcula();
+                    $oper = new Multiplicacao();
                     break;
                 case 'dividir':
                     if($val2 == 0){
                         $error = "Divisão por zero.";
                     }else{
-                        $divisao = new Divisao();
-                        $divisao->setNum1($val1);
-                        $divisao->setNum2($val2);
-                        $result = $divisao->calcula();
+                        $oper = new Divisao();
                     }
                     break;
                 default:
                     $error = "Operação desconhecida.";
             }
+            $oper->setNum1($val1);
+            $oper->setNum2($val2);
+            $result = $oper->calcula();
         }
 
         TrataeMostra::exibirResultado($error, $operacao, $val1, $val2, $result);
