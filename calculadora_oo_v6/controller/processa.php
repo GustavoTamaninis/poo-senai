@@ -1,10 +1,10 @@
 <?php
-    require_once "IOperacao.php";
-    require_once "Operacoes.php";
-    require_once "Soma.php";
-    require_once "Subtracao.php";
-    require_once "Multiplicacao.php";
-    require_once "Divisao.php";
+    require_once "../model/IOperacao.php";
+    require_once "../model/Operacoes.php";
+    require_once "../model/Soma.php";
+    require_once "../model/Subtracao.php";
+    require_once "../model/Multiplicacao.php";
+    require_once "../model/Divisao.php";
     require_once "TrataeMostra.php";
 
     if($_SERVER["REQUEST_METHOD"] == "POST"){

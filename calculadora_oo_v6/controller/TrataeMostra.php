@@ -28,7 +28,7 @@
                 echo " = <strong>" . htmlspecialchars($resultado, ENT_QUOTES, "UTF-8") . "</strong></p>";
             }
 
-            echo "<p><a href='index.html'>Voltar</a></p>";
+            echo "<p><a href='../view/index.html'>Voltar</a></p>";
         }
 
         public static function parse_num($val) : ?float {
